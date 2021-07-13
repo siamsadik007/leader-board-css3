@@ -143,6 +143,7 @@ width: 224px;
 
     .container{
         width: 100%;
+        overflow: hidden;
     }
     .players, .blogs, .courses{
         grid-template-columns: 1fr;

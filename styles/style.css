@@ -8,6 +8,7 @@ body{
 /* Top Player Style */
 main{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 align-items: center;
 
@@ -68,6 +69,7 @@ grid-row-gap: 30px;
 }
 .blog {
     display: flex;
+    
     
 }
 .blog .thumbnail img{
@@ -144,13 +146,17 @@ width: 224px;
     .container{
         width: 100%;
         overflow: hidden;
+        justify-content: center;
     }
     .players, .blogs, .courses{
         grid-template-columns: 1fr;
+        margin-left: 30px;
+        
    
     }
     .player,.blog, .course{
         flex-direction: column;
+        margin: 10px 0 0 0 ;
     }
       
   }

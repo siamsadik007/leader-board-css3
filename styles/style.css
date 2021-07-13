@@ -51,3 +51,30 @@ grid-row-gap: 30px;
     margin-left: 16px;
     font-size: 18px;
 }
+/* Top Blogs style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog {
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 224px;
+height: 127px;
+}
+.blog-details{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+}
